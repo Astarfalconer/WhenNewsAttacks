@@ -83,7 +83,7 @@ function loadAPI() {
             mode = mode + 1;
         };
 
-        } else if( stats == "undefined") {
+        } else if( stats == undefined) {
           push()
           textSize(42)
           text("Well that wasn't supposed to happen...", width/2,height/3)
