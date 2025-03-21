@@ -166,6 +166,9 @@ class Boid {
           unVerifiedBox(this.position,this.title);
           if(player.mentalHealth > 0) {
            player.mentalHealth += -1
+           if(player.tolerence > 0) {
+            player.tolerence += -0.5
+           }
           }
         } else {
           verfiedBox(this.position,this.title);
