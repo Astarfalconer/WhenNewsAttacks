@@ -1,4 +1,4 @@
-const APIKEY = '427fecd4587a497f9c75a8eaa512defd';
+const APIKEY = ' '; // got to https://newsapi.org and get your APIKEY
 const date =  'from=2025-03-10&';
 const query = "tesla";
 const queryRequest = `q=${query}&`;
